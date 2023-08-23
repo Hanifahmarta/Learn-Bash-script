@@ -1,0 +1,24 @@
+NAMESPACE,NAME,AGE,TYPE,CLUSTER-IP,EXTERNAL-IP,PORT(S),Endpoints
+app-tribi,postgres-service,2023-03-27T14:26:27Z,LoadBalancer,10.233.29.218,172.20.4.13,5432/TCP,,:5432
+app-tribi,tribi-service,2023-03-27T14:24:45Z,LoadBalancer,10.233.27.238,172.20.4.12,3000/TCP,,:3000
+default,kubernetes,2023-03-24T08:28:01Z,ClusterIP,10.233.0.1,,443/TCP,,:6443
+kube-system,coredns,2023-03-24T08:31:36Z,ClusterIP,10.233.0.3,,53/UDP,53/TCP,9153/TCP,,:53 53 9153
+longhorn-system,csi-attacher,2023-04-04T17:36:31Z,ClusterIP,10.233.61.112,,12345/TCP,,:12345
+longhorn-system,csi-provisioner,2023-04-04T17:36:32Z,ClusterIP,10.233.1.30,,12345/TCP,,:12345
+longhorn-system,csi-resizer,2023-04-04T17:36:33Z,ClusterIP,10.233.47.31,,12345/TCP,,:12345
+longhorn-system,csi-snapshotter,2023-04-04T17:36:33Z,ClusterIP,10.233.33.167,,12345/TCP,,:12345
+longhorn-system,longhorn-admission-webhook,2023-04-04T17:34:13Z,ClusterIP,10.233.19.38,,9443/TCP,,:admission-wh
+longhorn-system,longhorn-backend,2023-04-04T17:34:13Z,ClusterIP,10.233.55.168,,9500/TCP,,:manager
+longhorn-system,longhorn-conversion-webhook,2023-04-04T17:34:13Z,ClusterIP,10.233.28.92,,9443/TCP,,:conversion-wh
+longhorn-system,longhorn-engine-manager,2023-04-04T17:34:14Z,ClusterIP,None,,,:
+longhorn-system,longhorn-frontend,2023-04-04T17:34:13Z,ClusterIP,10.233.51.186,,80/TCP,,:http
+longhorn-system,longhorn-recovery-backend,2023-04-04T17:34:13Z,ClusterIP,10.233.61.221,,9600/TCP,,:recov-backend
+longhorn-system,longhorn-replica-manager,2023-04-04T17:34:14Z,ClusterIP,None,,,:
+metallb-system,webhook-service,2023-03-27T06:54:15Z,ClusterIP,10.233.33.6,,443/TCP,,:9443
+minio-dev,minio,2023-03-30T14:36:43Z,LoadBalancer,10.233.36.116,172.20.4.16,9090/TCP,9000/TCP,,:9090 9000
+miniostorage,minio-service,2023-03-31T17:20:20Z,LoadBalancer,10.233.11.123,172.20.4.14,9090/TCP,9000/TCP,,:9090 9000
+tribi,postgres-service,2023-03-26T12:46:08Z,LoadBalancer,10.233.2.186,172.20.4.10,5432/TCP,,:5432
+tribi,py-service,2023-05-25T18:39:08Z,LoadBalancer,10.233.11.113,172.20.4.15,80/TCP,,:5000
+tribi,python-flask-deployment,2023-06-20T13:48:03Z,LoadBalancer,10.233.32.44,172.20.4.17,5000/TCP,,:8080
+tribi,python-service,2023-06-19T09:17:23Z,LoadBalancer,10.233.61.188,172.20.4.18,80/TCP,,:80
+tribi,service,2023-03-26T17:21:42Z,LoadBalancer,10.233.12.141,172.20.4.11,3000/TCP,,:3000
