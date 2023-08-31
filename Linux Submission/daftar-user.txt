@@ -1,0 +1,2 @@
+ubuntu@an-marta-worker:~$ cat /etc/passwd | grep dicoding
+dicoding:x:1001:1001:Dicoding Indonesia,,,:/home/dicoding:/bin/bash

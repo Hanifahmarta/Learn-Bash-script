@@ -1,0 +1,236 @@
+ubuntu@an-marta-worker:~$ sudo cat /var/log/auth.log | grep ssh
+Apr  2 01:12:57 an-marta-worker sshd[1612948]: Received disconnect from 172.20.1.3 port 49316:11: FlowSshClientSession: disconnected on user's request
+Apr  2 01:12:57 an-marta-worker sshd[1612948]: Disconnected from user ubuntu 172.20.1.3 port 49316
+Apr  2 01:12:57 an-marta-worker sshd[1612782]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 14:50:25 an-marta-worker sshd[673]: Server listening on 0.0.0.0 port 17617.
+Apr  4 14:50:25 an-marta-worker sshd[673]: Server listening on :: port 17617.
+Apr  4 22:03:10 an-marta-worker sshd[589344]: Accepted publickey for ubuntu from 172.20.1.3 port 65288 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 22:03:10 an-marta-worker sshd[589344]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 22:04:38 an-marta-worker sshd[591513]: Connection closed by authenticating user dicoding 172.20.0.84 port 44400 [preauth]
+Apr  4 23:02:36 an-marta-worker sshd[668314]: Accepted publickey for ubuntu from 172.20.1.3 port 58952 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:02:36 an-marta-worker sshd[668314]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:04:59 an-marta-worker sshd[668480]: error: connect_to localhost port 15672: failed.
+Apr  4 23:05:10 an-marta-worker sshd[668480]: Received disconnect from 172.20.1.3 port 58952:11: FlowSshClientSession: disconnected on user's request
+Apr  4 23:05:10 an-marta-worker sshd[668480]: Disconnected from user ubuntu 172.20.1.3 port 58952
+Apr  4 23:05:10 an-marta-worker sshd[668314]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:05:46 an-marta-worker sshd[672694]: Accepted publickey for ubuntu from 172.20.1.3 port 62524 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:05:46 an-marta-worker sshd[672694]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:13:04 an-marta-worker sshd[672694]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:13:04 an-marta-worker sshd[672694]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Apr  4 23:13:04 an-marta-worker sshd[589344]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:15:02 an-marta-worker sshd[673]: Server listening on 0.0.0.0 port 17617.
+Apr  4 23:15:02 an-marta-worker sshd[673]: Server listening on :: port 17617.
+Apr  4 23:15:50 an-marta-worker sshd[2208]: Accepted publickey for ubuntu from 172.20.1.3 port 51518 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:15:50 an-marta-worker sshd[2208]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:27:45 an-marta-worker sshd[28340]: Accepted publickey for ubuntu from 172.20.1.3 port 54174 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:27:45 an-marta-worker sshd[28340]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:29:37 an-marta-worker sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su /home/ubuntu/.ssh/authorized_keys
+Apr  4 23:38:09 an-marta-worker sshd[43625]: Accepted publickey for ubuntu from 172.20.1.3 port 54727 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:38:09 an-marta-worker sshd[43625]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:40:05 an-marta-worker sshd[45070]: Accepted publickey for dicoding from 172.20.2.149 port 55402 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:40:05 an-marta-worker sshd[45070]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:40:47 an-marta-worker sshd[43805]: Received disconnect from 172.20.1.3 port 54727:11: disconnected by user
+Apr  4 23:40:47 an-marta-worker sshd[43805]: Disconnected from user ubuntu 172.20.1.3 port 54727
+Apr  4 23:40:47 an-marta-worker sshd[43625]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:40:47 an-marta-worker sshd[46510]: Received disconnect from 172.20.2.149 port 55402:11: disconnected by user
+Apr  4 23:40:47 an-marta-worker sshd[46510]: Disconnected from user dicoding 172.20.2.149 port 55402
+Apr  4 23:40:47 an-marta-worker sshd[45070]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:41:10 an-marta-worker sshd[47893]: Accepted publickey for ubuntu from 172.20.1.3 port 54944 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:41:10 an-marta-worker sshd[47893]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:49:13 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Apr  4 23:55:19 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr  4 23:55:19 an-marta-worker sshd[673]: Received signal 15; terminating.
+Apr  4 23:55:19 an-marta-worker sshd[67213]: Server listening on 0.0.0.0 port 2000.
+Apr  4 23:55:19 an-marta-worker sshd[67213]: Server listening on :: port 2000.
+Apr  4 23:55:37 an-marta-worker sshd[67565]: Connection closed by 127.0.0.1 port 53852 [preauth]
+Apr  4 23:57:12 an-marta-worker sshd[68171]: Accepted publickey for dicoding from 172.20.2.149 port 35268 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:57:12 an-marta-worker sshd[68171]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:57:59 an-marta-worker sshd[48066]: Received disconnect from 172.20.1.3 port 54944:11: disconnected by user
+Apr  4 23:57:59 an-marta-worker sshd[48066]: Disconnected from user ubuntu 172.20.1.3 port 54944
+Apr  4 23:57:59 an-marta-worker sshd[47893]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:57:59 an-marta-worker sshd[70009]: Received disconnect from 172.20.2.149 port 35268:11: disconnected by user
+Apr  4 23:57:59 an-marta-worker sshd[70009]: Disconnected from user dicoding 172.20.2.149 port 35268
+Apr  4 23:57:59 an-marta-worker sshd[68171]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:59:09 an-marta-worker sshd[72545]: Accepted publickey for ubuntu from 172.20.1.3 port 55999 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:59:09 an-marta-worker sshd[72545]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:59:19 an-marta-worker sshd[72914]: Accepted publickey for dicoding from 172.20.2.149 port 37516 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:59:19 an-marta-worker sshd[72914]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  5 00:01:05 an-marta-worker sshd[75436]: Connection closed by authenticating user ubuntu 172.20.2.149 port 38788 [preauth]
+Apr  5 00:01:50 an-marta-worker sshd[76507]: Connection closed by authenticating user ubuntu 172.20.2.149 port 51048 [preauth]
+Apr  5 00:02:03 an-marta-worker sshd[76824]: Connection closed by authenticating user ubuntu 172.20.2.149 port 37606 [preauth]
+Apr  5 00:03:08 an-marta-worker sshd[78278]: Accepted publickey for ubuntu from 172.20.1.3 port 56157 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  5 00:03:08 an-marta-worker sshd[78278]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+ubuntu@an-marta-worker:~$ sudo cat /var/log/auth.log | grep dicoding
+Apr  4 22:03:44 an-marta-worker sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/adduser dicoding
+Apr  4 22:03:44 an-marta-worker groupadd[590284]: group added to /etc/group: name=dicoding, GID=1001
+Apr  4 22:03:44 an-marta-worker groupadd[590284]: group added to /etc/gshadow: name=dicoding
+Apr  4 22:03:44 an-marta-worker groupadd[590284]: new group: name=dicoding, GID=1001
+Apr  4 22:03:44 an-marta-worker useradd[590290]: new user: name=dicoding, UID=1001, GID=1001, home=/home/dicoding, shell=/bin/bash, from=/dev/pts/0
+Apr  4 22:03:59 an-marta-worker passwd[590304]: pam_unix(passwd:chauthtok): password changed for dicoding
+Apr  4 22:04:12 an-marta-worker chfn[590633]: changed user 'dicoding' information
+Apr  4 22:04:38 an-marta-worker sshd[591513]: Connection closed by authenticating user dicoding 172.20.0.84 port 44400 [preauth]
+Apr  4 22:23:20 an-marta-worker su: (to dicoding) ubuntu on pts/0
+Apr  4 22:23:20 an-marta-worker su: pam_unix(su-l:session): session opened for user dicoding by ubuntu(uid=1000)
+Apr  4 23:31:51 an-marta-worker su: (to dicoding) ubuntu on pts/3
+Apr  4 23:31:51 an-marta-worker su: pam_unix(su-l:session): session opened for user dicoding by ubuntu(uid=1000)
+Apr  4 23:33:25 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/su
+Apr  4 23:33:36 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/su
+Apr  4 23:34:13 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/su
+Apr  4 23:35:43 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/su
+Apr  4 23:40:05 an-marta-worker sshd[45070]: Accepted publickey for dicoding from 172.20.2.149 port 55402 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:40:05 an-marta-worker sshd[45070]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:40:05 an-marta-worker systemd-logind[631]: New session 6 of user dicoding.
+Apr  4 23:40:05 an-marta-worker systemd: pam_unix(systemd-user:session): session opened for user dicoding by (uid=0)
+Apr  4 23:40:47 an-marta-worker sshd[46510]: Disconnected from user dicoding 172.20.2.149 port 55402
+Apr  4 23:40:47 an-marta-worker sshd[45070]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:57:12 an-marta-worker sshd[68171]: Accepted publickey for dicoding from 172.20.2.149 port 35268 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:57:12 an-marta-worker sshd[68171]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:57:12 an-marta-worker systemd-logind[631]: New session 9 of user dicoding.
+Apr  4 23:57:12 an-marta-worker systemd: pam_unix(systemd-user:session): session opened for user dicoding by (uid=0)
+Apr  4 23:57:59 an-marta-worker sshd[70009]: Disconnected from user dicoding 172.20.2.149 port 35268
+Apr  4 23:57:59 an-marta-worker sshd[68171]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:59:19 an-marta-worker sshd[72914]: Accepted publickey for dicoding from 172.20.2.149 port 37516 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:59:19 an-marta-worker sshd[72914]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:59:19 an-marta-worker systemd-logind[631]: New session 12 of user dicoding.
+Apr  4 23:59:19 an-marta-worker systemd: pam_unix(systemd-user:session): session opened for user dicoding by (uid=0)
+Apr  5 00:00:30 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/4 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/nano /var/log/auth.log
+Apr  5 00:13:33 an-marta-worker sudo: dicoding : user NOT in sudoers ; TTY=pts/4 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+ubuntu@an-marta-worker:~$ sudo nano /etc/ssh/sshd_config
+ubuntu@an-marta-worker:~$ sudo cat /var/log/auth.log | grep ubuntu
+Apr  2 01:12:57 an-marta-worker sshd[1612948]: Disconnected from user ubuntu 172.20.1.3 port 49316
+Apr  2 01:12:57 an-marta-worker sshd[1612782]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  2 01:13:07 an-marta-worker systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Apr  4 22:03:10 an-marta-worker sshd[589344]: Accepted publickey for ubuntu from 172.20.1.3 port 65288 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 22:03:10 an-marta-worker sshd[589344]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 22:03:10 an-marta-worker systemd-logind[633]: New session 8 of user ubuntu.
+Apr  4 22:03:11 an-marta-worker systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Apr  4 22:03:44 an-marta-worker sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/adduser dicoding
+Apr  4 22:03:44 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 22:23:20 an-marta-worker su: (to dicoding) ubuntu on pts/0
+Apr  4 22:23:20 an-marta-worker su: pam_unix(su-l:session): session opened for user dicoding by ubuntu(uid=1000)
+Apr  4 23:02:36 an-marta-worker sshd[668314]: Accepted publickey for ubuntu from 172.20.1.3 port 58952 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:02:36 an-marta-worker sshd[668314]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:02:36 an-marta-worker systemd-logind[633]: New session 11 of user ubuntu.
+Apr  4 23:05:10 an-marta-worker sshd[668480]: Disconnected from user ubuntu 172.20.1.3 port 58952
+Apr  4 23:05:10 an-marta-worker sshd[668314]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:05:46 an-marta-worker sshd[672694]: Accepted publickey for ubuntu from 172.20.1.3 port 62524 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:05:46 an-marta-worker sshd[672694]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:05:46 an-marta-worker systemd-logind[633]: New session 12 of user ubuntu.
+Apr  4 23:05:51 an-marta-worker sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su -
+Apr  4 23:05:51 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:05:51 an-marta-worker su: (to root) ubuntu on pts/1
+Apr  4 23:05:51 an-marta-worker su: pam_unix(su-l:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:13:03 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/reboot
+Apr  4 23:13:03 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:13:04 an-marta-worker sshd[672694]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:13:04 an-marta-worker sshd[589344]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:15:50 an-marta-worker sshd[2208]: Accepted publickey for ubuntu from 172.20.1.3 port 51518 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:15:50 an-marta-worker sshd[2208]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:15:51 an-marta-worker systemd-logind[631]: New session 1 of user ubuntu.
+Apr  4 23:15:51 an-marta-worker systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:22:26 an-marta-worker sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su -
+Apr  4 23:22:26 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:22:26 an-marta-worker su: (to root) ubuntu on pts/1
+Apr  4 23:22:26 an-marta-worker su: pam_unix(su-l:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:26:49 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:27:45 an-marta-worker sshd[28340]: Accepted publickey for ubuntu from 172.20.1.3 port 54174 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:27:45 an-marta-worker sshd[28340]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:27:45 an-marta-worker systemd-logind[631]: New session 4 of user ubuntu.
+Apr  4 23:29:37 an-marta-worker sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su /home/ubuntu/.ssh/authorized_keys
+Apr  4 23:29:37 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:31:51 an-marta-worker su: (to dicoding) ubuntu on pts/3
+Apr  4 23:31:51 an-marta-worker su: pam_unix(su-l:session): session opened for user dicoding by ubuntu(uid=1000)
+Apr  4 23:38:09 an-marta-worker sshd[43625]: Accepted publickey for ubuntu from 172.20.1.3 port 54727 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:38:09 an-marta-worker sshd[43625]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:38:09 an-marta-worker systemd-logind[631]: New session 5 of user ubuntu.
+Apr  4 23:40:47 an-marta-worker sshd[43805]: Disconnected from user ubuntu 172.20.1.3 port 54727
+Apr  4 23:40:47 an-marta-worker sshd[43625]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:41:10 an-marta-worker sshd[47893]: Accepted publickey for ubuntu from 172.20.1.3 port 54944 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:41:10 an-marta-worker sshd[47893]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:41:10 an-marta-worker systemd-logind[631]: New session 8 of user ubuntu.
+Apr  4 23:49:13 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Apr  4 23:49:13 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:55:19 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr  4 23:55:19 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  4 23:57:59 an-marta-worker sshd[48066]: Disconnected from user ubuntu 172.20.1.3 port 54944
+Apr  4 23:57:59 an-marta-worker sshd[47893]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:59:09 an-marta-worker sshd[72545]: Accepted publickey for ubuntu from 172.20.1.3 port 55999 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:59:09 an-marta-worker sshd[72545]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:59:09 an-marta-worker systemd-logind[631]: New session 11 of user ubuntu.
+Apr  5 00:01:05 an-marta-worker sshd[75436]: Connection closed by authenticating user ubuntu 172.20.2.149 port 38788 [preauth]
+Apr  5 00:01:50 an-marta-worker sshd[76507]: Connection closed by authenticating user ubuntu 172.20.2.149 port 51048 [preauth]
+Apr  5 00:02:03 an-marta-worker sshd[76824]: Connection closed by authenticating user ubuntu 172.20.2.149 port 37606 [preauth]
+Apr  5 00:03:08 an-marta-worker sshd[78278]: Accepted publickey for ubuntu from 172.20.1.3 port 56157 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  5 00:03:08 an-marta-worker sshd[78278]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  5 00:03:08 an-marta-worker systemd-logind[631]: New session 14 of user ubuntu.
+Apr  5 00:12:33 an-marta-worker sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr  5 00:12:33 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  5 00:14:52 an-marta-worker sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr  5 00:14:52 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  5 00:15:37 an-marta-worker sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Apr  5 00:15:37 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr  5 00:16:48 an-marta-worker sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr  5 00:16:48 an-marta-worker sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+ubuntu@an-marta-worker:~$ sudo cat /var/log/auth.log | grep ssh
+Apr  2 01:12:57 an-marta-worker sshd[1612948]: Received disconnect from 172.20.1.3 port 49316:11: FlowSshClientSession: disconnected on user's request
+Apr  2 01:12:57 an-marta-worker sshd[1612948]: Disconnected from user ubuntu 172.20.1.3 port 49316
+Apr  2 01:12:57 an-marta-worker sshd[1612782]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 14:50:25 an-marta-worker sshd[673]: Server listening on 0.0.0.0 port 17617.
+Apr  4 14:50:25 an-marta-worker sshd[673]: Server listening on :: port 17617.
+Apr  4 22:03:10 an-marta-worker sshd[589344]: Accepted publickey for ubuntu from 172.20.1.3 port 65288 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 22:03:10 an-marta-worker sshd[589344]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 22:04:38 an-marta-worker sshd[591513]: Connection closed by authenticating user dicoding 172.20.0.84 port 44400 [preauth]
+Apr  4 23:02:36 an-marta-worker sshd[668314]: Accepted publickey for ubuntu from 172.20.1.3 port 58952 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:02:36 an-marta-worker sshd[668314]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:04:59 an-marta-worker sshd[668480]: error: connect_to localhost port 15672: failed.
+Apr  4 23:05:10 an-marta-worker sshd[668480]: Received disconnect from 172.20.1.3 port 58952:11: FlowSshClientSession: disconnected on user's request
+Apr  4 23:05:10 an-marta-worker sshd[668480]: Disconnected from user ubuntu 172.20.1.3 port 58952
+Apr  4 23:05:10 an-marta-worker sshd[668314]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:05:46 an-marta-worker sshd[672694]: Accepted publickey for ubuntu from 172.20.1.3 port 62524 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:05:46 an-marta-worker sshd[672694]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:13:04 an-marta-worker sshd[672694]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:13:04 an-marta-worker sshd[672694]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Apr  4 23:13:04 an-marta-worker sshd[589344]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:15:02 an-marta-worker sshd[673]: Server listening on 0.0.0.0 port 17617.
+Apr  4 23:15:02 an-marta-worker sshd[673]: Server listening on :: port 17617.
+Apr  4 23:15:50 an-marta-worker sshd[2208]: Accepted publickey for ubuntu from 172.20.1.3 port 51518 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:15:50 an-marta-worker sshd[2208]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:27:45 an-marta-worker sshd[28340]: Accepted publickey for ubuntu from 172.20.1.3 port 54174 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:27:45 an-marta-worker sshd[28340]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:29:37 an-marta-worker sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/su /home/ubuntu/.ssh/authorized_keys
+Apr  4 23:38:09 an-marta-worker sshd[43625]: Accepted publickey for ubuntu from 172.20.1.3 port 54727 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:38:09 an-marta-worker sshd[43625]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:40:05 an-marta-worker sshd[45070]: Accepted publickey for dicoding from 172.20.2.149 port 55402 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:40:05 an-marta-worker sshd[45070]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:40:47 an-marta-worker sshd[43805]: Received disconnect from 172.20.1.3 port 54727:11: disconnected by user
+Apr  4 23:40:47 an-marta-worker sshd[43805]: Disconnected from user ubuntu 172.20.1.3 port 54727
+Apr  4 23:40:47 an-marta-worker sshd[43625]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:40:47 an-marta-worker sshd[46510]: Received disconnect from 172.20.2.149 port 55402:11: disconnected by user
+Apr  4 23:40:47 an-marta-worker sshd[46510]: Disconnected from user dicoding 172.20.2.149 port 55402
+Apr  4 23:40:47 an-marta-worker sshd[45070]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:41:10 an-marta-worker sshd[47893]: Accepted publickey for ubuntu from 172.20.1.3 port 54944 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:41:10 an-marta-worker sshd[47893]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:49:13 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Apr  4 23:55:19 an-marta-worker sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr  4 23:55:19 an-marta-worker sshd[673]: Received signal 15; terminating.
+Apr  4 23:55:19 an-marta-worker sshd[67213]: Server listening on 0.0.0.0 port 2000.
+Apr  4 23:55:19 an-marta-worker sshd[67213]: Server listening on :: port 2000.
+Apr  4 23:55:37 an-marta-worker sshd[67565]: Connection closed by 127.0.0.1 port 53852 [preauth]
+Apr  4 23:57:12 an-marta-worker sshd[68171]: Accepted publickey for dicoding from 172.20.2.149 port 35268 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:57:12 an-marta-worker sshd[68171]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  4 23:57:59 an-marta-worker sshd[48066]: Received disconnect from 172.20.1.3 port 54944:11: disconnected by user
+Apr  4 23:57:59 an-marta-worker sshd[48066]: Disconnected from user ubuntu 172.20.1.3 port 54944
+Apr  4 23:57:59 an-marta-worker sshd[47893]: pam_unix(sshd:session): session closed for user ubuntu
+Apr  4 23:57:59 an-marta-worker sshd[70009]: Received disconnect from 172.20.2.149 port 35268:11: disconnected by user
+Apr  4 23:57:59 an-marta-worker sshd[70009]: Disconnected from user dicoding 172.20.2.149 port 35268
+Apr  4 23:57:59 an-marta-worker sshd[68171]: pam_unix(sshd:session): session closed for user dicoding
+Apr  4 23:59:09 an-marta-worker sshd[72545]: Accepted publickey for ubuntu from 172.20.1.3 port 55999 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  4 23:59:09 an-marta-worker sshd[72545]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  4 23:59:19 an-marta-worker sshd[72914]: Accepted publickey for dicoding from 172.20.2.149 port 37516 ssh2: RSA SHA256:XUUvTvwaArU7fv21vK5mnSFr68LW+fc/kGn9bkvEgas
+Apr  4 23:59:19 an-marta-worker sshd[72914]: pam_unix(sshd:session): session opened for user dicoding by (uid=0)
+Apr  5 00:01:05 an-marta-worker sshd[75436]: Connection closed by authenticating user ubuntu 172.20.2.149 port 38788 [preauth]
+Apr  5 00:01:50 an-marta-worker sshd[76507]: Connection closed by authenticating user ubuntu 172.20.2.149 port 51048 [preauth]
+Apr  5 00:02:03 an-marta-worker sshd[76824]: Connection closed by authenticating user ubuntu 172.20.2.149 port 37606 [preauth]
+Apr  5 00:03:08 an-marta-worker sshd[78278]: Accepted publickey for ubuntu from 172.20.1.3 port 56157 ssh2: RSA SHA256:TJxDoZDvvmzBQhwSiPsr59lCupqGIg+sS/JRPkv/WMg
+Apr  5 00:03:08 an-marta-worker sshd[78278]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Apr  5 00:15:37 an-marta-worker sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
