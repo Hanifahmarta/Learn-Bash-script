@@ -1,0 +1,537 @@
+	
+
+	Command History
+
+    1  exit
+    2  ls
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  passwd
+    6  user
+    7  timdatectl
+    8  timedatectl
+    9  sudo passwd ubuntu
+   10  sudo nano /etc/ssh/sshd_config
+   11  ssh ubuntu@sementara
+   12  sudo systemctl restart ssh
+   13  ssh ubuntu@sementara
+   14  ssh ubuntu@sementara -p 17617
+   15  sudo nano /etc/ssh/sshd_config
+   16  sudo systemctl restart ssh
+   17  exit
+   18  ls
+   19  cat .ssh/authorized_keys
+   20  exit
+   21  timedatectl set-timezone Asia/Jakarta
+   22  cd /tmp
+   23  wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+   24  ls
+   25  tar -xvf node_exporter-0.18.1.linux-amd64.tar.gz
+   26  tar -xvf node_exporter-1.3.1.linux-amd64.tar.gz
+   27  ls
+   28  sudo mv node_exporter-1.3.1.linux-amd64/node_exporter /usr/local/bin/
+   29  sudo useradd -rs /bin/false node_exporter
+   30  sudo vi /etc/systemd/system/node_exporter.service
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl status node_exporter
+   34  sudo systemctl enable node_exporter
+   35  ifconfig
+   36  sudo apt install net-tools
+   37  ifconfig
+   38  curl 10.10.10.95:9100
+   39  curl 10.10.10.95:9100/metrics
+   40  exit
+   41  vim .ssh/authorized_keys
+   42  exit
+   43  sudo -i
+   44  exit
+   45  cat .ssh/authorized_keys
+   46  exit
+   47  git clone https://github.com/dicodingacademy/a387-jarkom-labs.git
+   48  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   49  nvm install v14.15.4
+   50  ls
+   51  cd a387-jarkom-labs/
+   52  ls
+   53  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   54  nvm install v14.15.4
+   55  nvm ls-remote
+   56  source ~/.bash
+   57  ls
+   58  cd ..
+   59  ls
+   60  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   61  source ~/.bashrc
+   62  nvm --version
+   63  nvm ls-remote
+   64  cd a387-jarkom-labs/
+   65  nvm install v14.15.4
+   66  cd
+   67  ls
+   68  cd a
+   69  cd a387-jarkom-labs/
+   70  ls
+   71  nvm --version
+   72  nvm install v14.15.4
+   73  npm install
+   74  npm run start
+   75  ip -r
+   76  ip a
+   77  sudo apt update
+   78  sudo apt-get install nginx -y
+   79  sudo sytemctl status nginx
+   80  sudo systemctl status nginx
+   81  cat /etc/nginx/sites-available/default
+   82  sudo nano /etc/nginx/sites-available/default
+   83  sudo systemctl restart nginx
+   84  npm run start
+   85  cd ..
+   86  sudo systemctl restart nginx
+   87  cd a387-jarkom-labs/
+   88  npm run start
+   89  sudo nano /etc/nginx/sites-available/default
+   90  sudo systemctl restart nginx
+   91  cd ..
+   92  sudo systemctl restart nginx
+   93  cd a387-jarkom-labs/
+   94  npm run start
+   95  ls
+   96  nano app.js
+   97  npm run start
+   98  cd ..
+   99  ls
+  100  sudo apt update
+  101  sudo apt install apache2
+  102  sudo systemctl status apache2
+  103  sudo systemctl status nginx
+  104  ls
+  105  cd a387-jarkom-labs/
+  106  nano app.js
+  107  sudo nano /etc/apache2/sites-available/000-default.conf
+  108  sudo nano /etc/nginx/sites-available/default
+  109  sudo nano /etc/apache2/sites-available/000-default.conf
+  110  /etc/apache2/ports.conf
+  111  sudo nano /etc/apache2/ports.conf
+  112  nano app.js p
+  113  nano app.js
+  114  sudo nano /etc/nginx/sites-available/default
+  115  nano app.js
+  116  do service apache2 stop
+  117  sudo service apache2 stop
+  118  npm run start nginx
+  119  sudo systemctl status apache2
+  120  sudo systemctl status nginx
+  121  npm run start
+  122  mv /var/www/html/index.html index.html_bkp
+  123  sudo su
+  124  sudo systemctl status nginx
+  125  npm run start
+  126  exit
+  127  wget https://releases.hashicorp.com/terraform/1.1.2/terrafrom_1.1.2_linux_amd64.zip
+  128  wget https://releases.hashicorp.com/terraform/1.1.2/terraform_1.1.2_linux_amd64.zip
+  129  unzip terraform_1.1.2_linux_amd64.zip
+  130  ls
+  131  unzip terraform_1.1.2_linux_amd64.zip
+  132  sudo apt install unzip
+  133  unzip terraform_1.1.2_linux_amd64.zip
+  134  terraform -v
+  135  cp terraform /usr/bin/
+  136  terraform -install-autocomplete
+  137  terraform
+  138  sudo snap install terraform
+  139  apt-get install terraform -y
+  140  sudo su
+  141  sudo apt install terraform
+  142  wget https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_linux_amd64.zip
+  143  unzip "terraform-zip-file"
+  144  ls
+  145  unzip "terraform_1.1.2_linux_amd64.zip"
+  146  sudo mv /usr/bin/
+  147  sudo mv terraform/usr/bin/
+  148  sudo su
+  149  which terraform
+  150  ls
+  151  mkdir Test
+  152  ls
+  153  cd Test/
+  154  ubuntu -v
+  155  sudu apt update
+  156  sudo apt update
+  157  ls
+  158  wget https://dl.minio.io/server/minio/release/linux-amd64/minio
+  159  ls
+  160  chmod +x minio.1
+  161  sudo chmod +x minio.1
+  162  ./mc help
+  163  sudo ./minio server /minio
+  164  sudo ./minio.1 server /minio.1
+  165  sudo systemctl start minio
+  166  sudo systemctl start minio.1
+  167  sudo systemctl status minio.1
+  168  sudo chmod +x minio
+  169  sudo systemctl start minio
+  170  sudo systemctl start minio.1
+  171  sudo systemctl status minio.1
+  172  sudo ./minio server /minio
+  173  sudo ./minio.1 server /minio.1
+  174  sudo ./minio.1 server/minio
+  175  sudo ./minio.1 server /minio
+  176  sudo ./minio.1 server /minio.1
+  177  apt intall mysql-server
+  178  apt install mysql-server
+  179  sudo su
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ubuntu/
+  184  sudo apt install mysql-server
+  185  ls
+  186  ls -a
+  187  sudo systemctl status mysql
+  188  sudo apt install postgresql
+  189  sudo -iu postgresql
+  190  sudo -iu postgres
+  191  telnet localhost 5432
+  192  ipconfig
+  193  ifconfi
+  194  ifconfig
+  195  mysql -u root
+  196  sudo su
+  197  sudo mysql
+  198  iptable
+  199  iptables
+  200  sudo mysql
+  201  mysql -u root -p
+  202  mysql -u root -p
+  203  sudo su
+  204  sudo mysql
+  205  sudo service mysql stop
+  206  mysql -u root
+  207  sudo service mysql start
+  208  mysql -u root
+  209  mysql -u root -p
+  210  sudo su
+  211  mysql -u root -p
+  212  sudo service mysql restart
+  213  sudo mysql
+  214  sudo apt-get remove --purge mysql*
+  215  sudo systemctl mysql status
+  216  sudo apt-get purge mysql*
+  217  sudo apt-get autoremove
+  218  sudo apt-get autoclean
+  219  sudo apt-get remove dbconfig-mysql
+  220  sudo apt-get install mysql-server
+  221  sudo service mysql status
+  222  sudo mysql
+  223  mysql -u root -p
+  224  sudo su
+  225  sudo mysql
+  226  mysql -u root -p
+  227  sudo mysql
+  228  mysql -u root -p
+  229  /etc
+  230  ls
+  231  sudo su
+  232  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+  233  sudo systemctl restart mysql
+  234  sudo su - postgres
+  235  posgress version
+  236  posgres version
+  237  postgres version
+  238  postgres --version
+  239  /etc/postgresql/psql_version/main/postgresql.conf
+  240  sudo /etc/postgresql/psql_version/main/postgresql.conf
+  241  sudo
+  242  sudo su
+  243  sds
+  244  psql -h 127.0.0.1 -p 5432 -d tribi_db -U testuser -W
+  245  postgre
+  246  postgres
+  247  sudo postgres
+  248  sudo postgress
+  249  sudo su - postgres
+  250  sudo /etc/postgresql/psql_version/main/postgresql.conf
+  251  sudo /etc/postgresql/12/main/postgresql.conf
+  252  sudo su
+  253  psql -h 127.0.0.1 -p 5432 -d tribi_db
+  254  psql -U postgres -h 127.0.0.1 -p 5432
+  255  sudo su -postgres
+  256  sudo su - postgres
+  257  psql -U postgres -h 127.0.0.1 -p 5432
+  258  sudo su /etc/postgresql/12/main/postgresql.conf
+  259  sudo su
+  260  sudo ufw allow 5432/tcp
+  261  sudo systemctl restart postgresql
+  262  psql -h 127.0.0.1 -p 5432 -U tribi_db
+  263  psql -h 127.0.0.1 -p 5432 -U postgres tribi_db
+  264  sudo -u postgres psql
+  265  sudo -u postgres
+  266  sudo su -postgres
+  267  sudo su - postgres
+  268  history
+  269  sudo /etc/init.d/postgresql-12 restart
+  270  psql -h 127.0.0.1 -U root
+  271  psql -d template1
+  272  psql -d ubuntu
+  273  createdb
+  274  sudo su postgres
+  275  sudo -i -u postgres
+  276  createuser -P
+  277  sudo -i -u postgres
+  278  postgres -u psqsl
+  279  psql -U postgres
+  280  history
+  281  ifconfig
+  282  sudo./minio server /minio
+  283  sudo./minio1 server /minio1
+  284  ls
+  285  sudo./minio.1 server /minio.1
+  286  sudo ./minio server /minio
+  287  sudo./minio.1  server /mino.1
+  288  sudo./minio.1  server /minio.1
+  289  ls
+  290  sudo./minio.1  server /minio.1
+  291  sudo ./minio.1  server /minio.1
+  292  sudo ./minio server /minio
+  293  ls
+  294  cd mini.1
+  295  cd minioi.1
+  296  cd minio.1
+  297  sudo ./minio.1 server /minio.1
+  298  wget https://dl.min.io/client/mc/release/linux-amd64/mc
+  299  chmod +x mc
+  300  sudo mv mc /usr/local/bin/mc
+  301  mc alias set local http://127.0.0.1:9000 minioadmin minioadmin
+  302  sudo ./minio.1 server /minio.1
+  303  mc alias set myminio http://172.20.0.84:9000 minioadmin minioadmin
+  304  sudo ./minio.1 server /minio.1
+  305  sudo ./minio.1 server /minio.1
+  306  mc alias set myminio http://172.20.0.84:39209 minioadmin minioadmin
+  307  mc alias set local hhtp://127.0.0.1:9000 minioadmin minioadmin
+  308  mc alias set local http://127.0.0.1:9000 minioadmin minioadmin
+  309  mc admin info local
+  310  mc admin user info
+  311  sudo ./minio.1 server /minio.1
+  312  sudo su
+  313  w
+  314  sudo su
+  315  sudo ./minio.1 server /minio.1
+  316  postgres --version
+  317  psql --version
+  318  minio gateway postgres
+  319  minio-pg-gateway
+  320  ls
+  321  cd minio.1
+  322  nano minio.1
+  323  minio-psgl-store
+  324  sudo su
+  325  sudo .\minio.1 server \minio.1
+  326  sudo ./minio.1 server/\minio.1
+  327  sudo ./minio.1 server /minio.1
+  328  sudo su
+  329  curl https://dl.min.io/server/minio/release/gpg/PUBKEY-GPG-KEY-MINIO
+  330  sudo apt-key add /etc/apt/sources.list.d/minio.list
+  331  gpg --recv-keys [KEY_ID]
+  332  gpg --list-keys [KEY_ID]
+  333  gpg --keyring /usr/share/keyrings/ubuntu-archive-keyring.gpg --no-default-keyring --recv-keys <key-identifier>
+  334  gpg --keyring /usr/share/keyrings/ubuntu-archive-keyring.gpg --no-default-keyring --list-keys
+  335  gpg --keyring /usr/share/keyrings/ubuntu-archive-keyring.gpg --no-default-keyring --recv-keys <key-identifier>
+  336  gpg --keyring /usr/share/keyrings/ubuntu-archive-keyring.gpg --no-default-keyring --recv-keys
+  337  gpg --keyring /usr/share/keyrings/ubuntu-archive-keyring.gpg --no-default-keyring --list-keys
+  338  sudo apt-key add /etc/apt/sources.list.d/minio.list
+  339  sudo apt-get install minio-pgsql-store
+  340  sudo apt-get update
+  341  gpg --recv-keys --keyserver
+  342  sudo apt-key adv --keyserver  --recv-keys  <GPG-key-id>
+  343  exit
+  344  sudo ./minio.1 server /minio.1
+  345  sudo apt-key add /etc/apt/sources.list.d/minio.list
+  346  sudo apt-get update
+  347  sudo apt-key add https://dl.min.io/server/minio/release/public.key
+  348  sudo nano /etc/apt/sources.list.d/minio.list
+  349  sudo apt-key add https://dl.min.io/server/minio/release/public.key
+  350  sudo su
+  351  psql --version
+  352  pgsql -U postgres
+  353  systemctl status postgres
+  354  systemctl status postgresql
+  355  psql -U postgres
+  356  sudo -u postgres psql
+  357  sudo su -postgres
+  358  sudo -u postgres psql
+  359  psql -U postgres
+  360  sudo psql -U postgres
+  361  psql -U postgres
+  362  sudo -u postgres psql
+  363  sudo -u postgres psql -c "SHOW server_version_num;"
+  364  psql -h 120012 -U postgres -d tribi_db
+  365  hostname
+  366  psql -h an-marta-dev-1 -U postgres tribi_db
+  367  $ sudo -u postgres psql -c "SHOW config_file;"
+  368  sudo -u postgres psql -c "SHOW config_file;"
+  369  nano /etc/postgresql/12/main/postgresql.conf
+  370  sudo -u postgres psql
+  371  nano /etc/postgresql/12/main/pg_hba.conf
+  372  sudo su
+  373  psql -h 172.20.0.84 -p 5432 -d tribi_db -U postgres
+  374  psql -U postgres -h 172.20.0.84 tribi_db
+  375  sudo systemctl status nginx
+  376  sudo tail -f error.log
+  377  cd /var/log/nginx/
+  378  ls
+  379  sudo tail -f error.log
+  380  cd /var/log/nginx/
+  381  sudo tail -f error.log
+  382  cd ..
+  383  exit
+  384  sudo nano /etc/nginx/nginx.conf
+  385  sudo nano /etc/nginx/sites-available/default
+  386  sudo nginx -t
+  387  sudo systemctl reload nginx
+  388  sudo nginx -t
+  389  sudo systemctl reload nginx
+  390  sudo nano /etc/nginx/sites-available/default
+  391  sudo nginx -t
+  392  sudo systemctl reload nginx
+  393  sudo nano /etc/nginx/sites-available/default
+  394  psql -U postgres -h 172.20.0.84 tribi_db
+  395  sudo nano /etc/nginx/sites-available/default
+  396  cd /var/log/nginx/
+  397  sudo tail -f error.log
+  398  ./minio gateway postgresql://localhost:5432/tribi_db
+  399  cd nano /etc/apt/sources.list.d/minio.list
+  400  nano /etc/apt/sources.list.d/minio.list
+  401  wget https://dl.min.io/server/minio/release/linux-amd64/minio.asc
+  402  sudo apt-key add minio.asc
+  403  sudo apt-key add minio.asc.2
+  404  sudo apt-key add https://dl.min.io/server/minio/release/public.key
+  405  wget https://dl.min.io/server/minio/release/linux-amd64/apt/public.key
+  406  sudo su
+  407  minio server ~/minio --console-address :9090
+  408  sudo ./minio server /minio
+  409  apt-get https://dl.min.io/server/minio/release/public.key
+  410  sudo apt-get update
+  411  ls
+  412  sudo apt-get install postgresql-13-minio
+  413  sudo su postgres
+  414  pqsl --version
+  415  pgsl --version
+  416  psql --version
+  417  pg-minio
+  418  sudo su postgres
+  419  sudo ./minio.1 server /minio.1
+  420  sudo su postgres
+  421  sudo apt-get install postgresql-13-minio
+  422  sudo apt-get install postgresql-12-minio
+  423  git clone https://github.com/minio/pg-minio
+  424  git clone https://git clone https://<token>@github.com/minio/pg-minio.gitgithub.com/minio/pg-minio
+  425  git clone https://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@github.com/minio/pg-minio.git
+  426  github config --list
+  427  ls
+  428  sudo ./minio.1 server /minio.1
+  429  sudo su
+  430  ls
+  431  nano minio
+  432  wget https://dl.min.io/client/mc/release/linux-amd64/mc
+  433  chmod +x mc
+  434  sudo mv mc /usr/local/bin/
+  435  ls
+  436  npm install pg minio
+  437  ls
+  438  sudo ./minio.1 server /minio.1
+  439  sudo ./minio server /minio
+  440  sudo ./minio.1 server /minio.1
+  441  sudo ./minio.1 server /minio
+  442  sudo ./minio.1 server /minio.1
+  443  psql -U postgres
+  444  sudo -u postgres psql
+  445  ls
+  446  sudo ./minio.1 server /mini.1
+  447  sudo ./minio.1 server /minio.1
+  448  pg_dump -h 172.20.0.84 -p 5432 -U postgres tribi_db > backup_file.sql
+  449  ls
+  450  nano backup_file.sql
+  451  sudo ./minio.1 server /minio.1
+  452  ls
+  453  nano hello.sh
+  454  ls -l
+  455  chmod +x hello.sh
+  456  ls -l
+  457  ./hello.sh
+  458  /home/ubuntu/hello.sh
+  459  bash hello.sh
+  460  number=100
+  461  nano hello.sh
+  462  ./hello.sh
+  463  nano hello.sh
+  464  ./hello.sh
+  465  nano hello.sh
+  466  ./hello.sh
+  467  nano hello.sh
+  468  ./hello.sh
+  469  nano hello.sh
+  470  ./hello.sh
+  471  nano hello.sh
+  472  ./hello.sh
+  473  nano hello.sh
+  474  ./hello.sh
+  475  nano hello.sh
+  476  ./hello.sh
+  477  nano hello.sh
+  478  ./hello.sh
+  479  nano contoh-if.sh
+  480  chmod +x contoh-if.sh
+  481  ./contoh-if.sh
+  482  nano contoh-if.sh
+  483  ./contoh-if.sh
+  484  nano contoh-if.sh
+  485  ./contoh-if.sh
+  486  nano contoh-if.sh
+  487  ./contoh-if.sh
+  488  nano contoh-if.sh
+  489  ./contoh-if.sh
+  490  sudo ./minio.1 server /minio.1
+  491  nano test.sh
+  492  history
+  493  echo timpa baris > ls.txt
+  494  cat ls.txt
+  495  echo baris berikutnya >> test.txt
+  496  cat test.txt
+  497  ls -l /var/log/*.log | wc -l
+  498  ls -l /var/log/ | grep "\.log$" | wc -l
+  499  history > test-history.txt
+  500  cat test.txt
+  501  cat test-history.txt
+  502  suddo ./minio.1 server /minio.1
+  503  sudo ./minio.1 server /minio.1
+  504  nano hanifahmartaardilah.sh
+  505  sudo ./minio.1 server /minio.1
+  506  nano hanifahmartaardilah.sh
+  507  ./hanifahmartaardilah.sh
+  508  ls
+  509  nano hanifahmartaardilah.sh
+  510  chmod +x hanifahmartaardilah.sh
+  511  .hanifahmartaardilah.sh
+  512  ./hanifahmartaardilah.sh
+  513  nano hanifahmartaardilah.sh
+  514  ./hanifahmartaardilah.sh
+  515  nano hanifahmartaardilah.sh
+  516  ./hanifahmartaardilah.sh
+  517  nano hanifahmartaardilah.sh
+  518  ./hanifahmartaardilah.sh
+  519  nano hanifahmartaardilah.sh
+  520  ./hanifahmartaardilah.sh
+  521  nano hanifahmartaardilah.sh
+  522  ./hanifahmartaardilah.sh
+  523  nano hanifahmartaardilah.sh
+  524  ./hanifahmartaardilah.sh
+  525  nano hanifahmartaardilah.sh
+  526  sudo ./minio.1 server /minio.1
+  527  nano hanifahmartaardilah.sh
+  528  ./hanifahmartaardilah.sh
+  529  nano hanifahmartaardilah.sh
+  530  ./hanifahmartaardilah.sh
+  531  bash hanifahmartaardilah.sh
+  532  ./hanifahmartaardilah.sh
+  533  history
