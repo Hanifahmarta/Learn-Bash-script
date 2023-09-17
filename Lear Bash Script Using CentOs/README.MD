@@ -1,4 +1,5 @@
 Goals
+
 The server should be running :
     1. Centos ≥ 7
     2. Nginx ≥ 1.15
